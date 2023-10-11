@@ -1,0 +1,262 @@
+.page__main {
+}
+.second-block {
+	position: relative;
+	padding: 180px 0 150px 0;
+}
+.second-block__container {
+	position: relative;
+	z-index: 2;
+}
+.second-block__body {
+}
+.body-block-02 {
+	display: flex;
+}
+.body-block-02__images {
+	max-width: 100%;
+	padding-right: 100px;
+	flex: 0 1 50%;
+}
+.body-block-02__contante {
+	flex: 0 1 50%;
+	/* padding-right: 40px; */
+	align-self: top;
+	justify-content: flex-end;
+}
+
+.body-block-02__title {
+}
+.body-block-02__title:not(:last-child) {
+	margin-bottom: 40px;
+}
+.body-block-02__main-title {
+}
+.main-title {
+}
+.body-block-02__subtitle {
+}
+.subtitle {
+}
+/* .......................................... */
+.body-block-02__lists {
+	color: #424551;
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.lists-body {
+	margin: 0 0 32px 32px;
+}
+
+.lists-body__item {
+	position: relative;
+	padding-left: 32px;
+	min-height: 36px;
+}
+.lists-body__item::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: url("../img/block_two/icons/2_03_cheker.svg") 0 5px / 16px no-repeat;
+	width: 32px;
+	height: 32px;
+}
+.lists-body__item:not(:last-child) {
+	padding-bottom: 12px;
+}
+/* ........................................ */
+.body-block-02__button {
+}
+.button {
+}
+/* ....................................... */
+.body-block-02__decor {
+}
+.decor-second {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.decor-second__item {
+	position: absolute;
+}
+.decor-second__item--1 {
+	position: absolute;
+	content: "";
+	background: url("../img/block_two/icons/2_01.svg") 0 0 no-repeat;
+	width: 132px;
+	height: 181px;
+	bottom: 24%;
+	left: 0;
+}
+.decor-second__item--2 {
+	position: absolute;
+	content: "";
+	background: url("../img/block_two/icons/2_02_circles.svg") 0 0 no-repeat;
+	width: 287px;
+	height: 287px;
+	bottom: 17%;
+	right: -8.5%;
+}
+
+/* ----------------- section 3 -----------------------*/
+.page__main {
+}
+.section-03 {
+}
+.section-03__container {
+}
+.section-03__body {
+}
+.body-section-03 {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	margin-bottom: 180px;
+}
+.body-section-03__block-title-card {
+}
+.card-title-block {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 32px;
+}
+.card-title-block__block-title {
+}
+.title {
+}
+.title__main-title {
+}
+.main-title {
+}
+.title__subtitle {
+}
+.subtitle {
+}
+.body-section-03__buttons {
+}
+.buttons {
+	align-self: center;
+}
+.buttons__button {
+}
+.button {
+}
+.button--border {
+}
+.body-section-03__cards {
+}
+.cards-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: repeat(3, 241px);
+	gap: 30px;
+}
+.cards-section__card {
+	display: flex;
+	flex-wrap: nowrap;
+	/* gap: 20px; */
+	/* justify-content: space-between; */
+}
+.cards-section__image {
+	max-width: 241px;
+	margin-right: 32px;
+	flex: 0 0 auto;
+}
+.cards-section__image img {
+	width: 100%;
+}
+.cards-section__contante {
+	flex: 0 0 auto;
+	align-items: self-start;
+	/* justify-content: space-between; */
+}
+.contante-section {
+	display: flex;
+	/* gap: 20px; */
+
+	flex-direction: column;
+	width: 322px;
+	gap: 20px;
+	align-items: flex-start;
+	padding: 32px 0px;
+	/* max-width: 322px; */
+}
+.contante-section__button {
+}
+.mini-button {
+	min-height: 24px;
+	padding: 0 8px;
+	border-radius: 4px;
+	background: #03cea4;
+	color: #fff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	justify-content: start;
+}
+.mini-button-01 {
+}
+.contante-section__title {
+	flex: 0 0 auto;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+
+	align-self: self-start;
+}
+.contante-section__text {
+	color: #787a80;
+	font-family: Lato;
+	height: 18px;
+
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5%;
+}
+
+.contante-section__text span {
+	display: inline-block;
+
+	position: relative;
+	color: red;
+	padding-right: 8px;
+}
+
+.contante-section__text span::after {
+	position: absolute;
+	top: -9px;
+	right: 0px;
+	content: "";
+	height: 18px;
+	border-right: 1px solid #787a80;
+}
+.contante-section__text h3 {
+	display: inline-block;
+
+	padding-left: 8px;
+}
+.conteante-section {
+}
+.contate-section__button {
+}
+.mini-button-02 {
+	background: #5a87fc;
+}
+
+.mini-button-03 {
+	background: #f89828;
+}
+.mini-button-05 {
+	background: #5a87fc;
+}
+
+.mini-button-06 {
+	background: #f52f6e;
+}

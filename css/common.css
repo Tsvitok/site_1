@@ -1,0 +1,45 @@
+.button {
+	background: linear-gradient(90deg, #ff3f3a 0%, #f75e05 80%);
+	border-radius: 4px;
+	line-height: 1.25;
+	display: inline-block;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 16px 40px;
+	letter-spacing: 0.5px;
+	transition: box-shadow 0.3s ease;
+}
+.button:active {
+	background: linear-gradient(90deg, #e43a34 0%, #d55003 80%);
+}
+.button--border {
+	background: transparent;
+	color: #ff3f3a;
+	border: 2px solid #ff3f3a;
+	padding: 14px 38px;
+}
+.button--border:active {
+	background: linear-gradient(90deg, #ff3f3a 0%, #f75e05 80%);
+	color: #ffffff;
+}
+.button:hover {
+	box-shadow: 2px 2px 2px #f75e05;
+}
+
+.title {
+	font-family: Lato;
+
+	color: #1e212c;
+}
+.main-title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.subtitle {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+}
